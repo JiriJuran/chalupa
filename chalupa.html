@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"">
+	<meta name="keywords" content="Chalupa, HTML, how to, ucit se">
+	<meta name="author" content="JJ">
+	<meta http-equiv="refresh" content="">
+	<base href="">
+	<title>Chalupa WEB mastering</title>
+	<style>
+		body {font-family: arial;}
+	</style>
+	<link rel="stylesheet" href="chalupaStyly.css">
+</head>
+<body>
+	<div id="nav1">
+	<nav>
+		<ul>
+			<li><a href="index.html">WEB</a></li>
+			<li><a href="bitcoin.html">Bitcoin</a></li>
+			<li><a href="slovnik.html">Slovník</a></li>
+		</ul>
+	</nav>
+	</div>
+	<h1 style="text-align: center;">Opakování HTML na chalupě</h1>
+	<p>Tak snad to tady neskončí</p>
+
+	
+		<hr>
+		<a  class="port" href="#Odkazy">Odkazy</a>
+		<a class="port" href="#Tabulky">Tabulky</a>
+		<a class="port" href="#Seznamy">Seznamy</a>
+		<a class="port" href="#div-span">Div a span</a>
+		<a class="port" href="#iframe">Iframe</a>
+		<a class="port" href="#code">Code</a>
+	<br>
+	<hr>
+	<div id="nadpis1">
+	<h1>Tady</h1>
+	</div>
+	<h2>jsou</h2>
+	<h3>všechny</h3>
+	<h4>velikosti</h4>
+	<h5>hustejch</h5>
+	<h6>nadpisů :O</h6>
+	<hr>
+	<p>Tady je hustej paragraf i když nevim co to znamená</p>
+	<hr>
+	<a href="index.html" target="_blank">Moje první stránka :O</a>
+	<hr>
+	<img src="images/cat.jpg" alt="picture of cat" width="250">
+	<hr>
+	<pre>
+	Toto je báseň
+	dnes mě bolí dáseň
+	Můžou za to zuby
+	tričko mám naruby
+	</pre>
+	<hr>
+	<h1 style="background:wheat;">Tady jsou hustý styly z CSS</h1>
+	<p style="color:blueviolet; text-align: center;">Modrá barva lol</p>
+	<p style="font-family: fantasy; background-color:blue; font-size: 50px;">2. Nejlepší font na světě</p>
+	<hr>
+	<h1>Formátování textu</h1>
+	<p><b>Pořádnej tučnej text</b></p>
+	<p><strong>Důležitej text</strong></p>
+	<i>Kurzíva</i>
+	<p><em>Tohle čte čtečka s důrazem :O</em></p>
+	<p>Tohle je <small>Malá</small> text</p>
+	<p>Jednou jsem byl <mark>1.</mark> na turnaji</p>
+	<p>Miluju <del>houby</del> Palačinky</p>
+	<p><ins>Podrženo</ins> a sečteno</p>
+	<p>H<sub>2</sub>O stačí přidat vodu xd</p>
+	<p>třeba pro <sup>www</sup> stránky je sup</p>
+	<hr>
+	<br>
+	<p>Hraju <abbr title="Counter-Strike: Global Offensive">CS:GO</abbr></p>
+	<p id="border">Rámeček</p>
+	<hr>
+	<h1 class="Nadpisy" id="Odkazy">Odkazy</h1>
+	<p>Potřebuješ nakoupit? jdi na <a id="alza" href="https://www.alza.cz/" target="_blank">Alza</a> a kup si novou elektroniku</p>
+	<p>Chceš si zahrát? Je tu pro tebe server <a href="https://lexten.cz/" target="_blank">LEXTEN</a>, kde si můžeš zahrát</p>
+
+	<a href="http://www.nyan.cat/index.php?cat=original" target="_blank"><img src=images/cat.jpg id="nyancat"></a>
+	<hr>
+	<h1 class="Nadpisy" id="Tabulky">Tabulky</h1>
+	<table id="osobnosti">
+		<th>
+			<td></td>
+			<td></td>
+			<td></td>
+		</th>
+		<tr>
+			<td>Jméno</td>
+			<td>Přijemní</td>
+		</tr>
+		<tr>
+			<td>Karel</td>
+			<td>Stránský</td>
+		</tr>
+		<tr>
+			<td>Steve</td>
+			<td>Jobs</td>
+		</tr>
+
+
+	</table>
+	<hr>
+	<h1 class="Nadpisy" id="Seznamy">Seznamy</h1>
+	<p>Seznamy v HTML se dělí na:</p>
+	<ul>
+		<li>Číslované</li>
+		<li>Odrážkované (neseřazené)</li>
+	</ul>
+
+	<h3>Odrážkové seznamy</h2>
+	<p>Co je potřeba na mozzarelly ve slanině?</p>
+	<ul>
+		<li>Mozzarella</li>
+		<li>Slanina</li>
+		<li>Olej</li>
+		<li>Párátka</li>
+	</ul>
+	<h3>Číslované</h3>
+	<p>Pokrmy během dne:</p>
+	<ol>
+		<li>Snídaně</li>
+		<li>Svačina</li>
+		<li>Oběd</li>
+		<li>Svačina</li>
+		<li>Večeře</li>
+	</ol>
+	<h4>Podrobný seznam</h4>
+	<dl>
+		<dt>Bitcoin</dt>
+		<dd>- to nejlepší z kryptoměn</dd>
+	</dl>
+		<dt>Litecoin</dt>
+		<dd>- rychlejší brácha</dd>
+	<hr>	
+	<h1 class="Nadpisy" id="div-span">Blokové a řádkové (vložené) elementy</h1>
+	<p>div a span</p>
+	<p>div se používá pro blokové elementy a tak zabírá celý řádek</p>
+	<p>span využívá jen potřebnou délku řádkového elementu</p>
+	<hr>
+	<h1 id="iframe" class="Nadpisy">iframe</h1>
+	<div id="video">
+		<iframe  width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+	<hr>
+	<h1 class="Nadpisy" id="code">Code</h1>
+	<h2>Výstup z klávesnice</h2>
+	<p>Správce úloh: <kbd>Ctrl + Shift + ESC</kbd></p>
+	<br>
+	<h2>Výpis programu</h2>
+	<samp>Error 404</samp>
+	<br>
+	<h2>Je libo trocha kódu?</h2>
+	<p>C++ Výpis do konzole: <code>cout << "Ahojky Pusinky";</code></p>
+	<br>
+	<h2>Proměnné</h2>
+	<p>Proměnná <var>x</var> = 10</p>
+	<hr>
+	<h1>Sémantické prvky</h1>
+	<p>Jsou značky, které popisují jejich význam jak pro vývojáře, tak pro prohlížeč.</p>
+	<ul>
+		<li>&lt;article&gt;</li>
+		<li>&lt;aside&gt;</li>
+		<li>&lt;details&gt;</li>
+		<li>&lt;figcaption&gt;</li>
+		<li>&lt;figure&gt;</li>
+		<li>&lt;footer&gt;</li>
+		<li>&lt;header&gt;</li>
+		<li>&lt;main&gt;</li>
+		<li>&lt;mark&gt;</li>
+		<li>&lt;nav&gt;</li>
+		<li>&lt;section&gt;</li>
+		<li>&lt;summary&gt;</li>
+		<li>&lt;time&gt;</li>
+	</ul>
+	<hr>
+	<h1>Entity</h1>
+	<p>Slouží k zabraným znakům HTML jako &lt; nebo &gt;</p>
+	<hr>
+
+
+	<!---->
+	<h1>Formuláře</h1>
+	<h2>Textové pole</h2>
+	<form>
+	<!--tag slouží k vytvoření formulářů, action slouží pro zapsání adresy, kam bude formulář odeslán-->
+
+
+		<!--TEXTOVÉ POLE-->
+
+		<label for="jmeno">Jméno</label>
+		<!--label je označení formuláře, for označuje jaký formulář podle jeho id-->
+		<br>
+		<input type="text" id="jmeno" name="jmeno">
+		<!--vstup pro text, id slouží pro label, name slouží pro server, kam se posílá formulář, je to jeho označení-->
+		<br>
+		<label for="prijemni">Příjmení</label>
+		<br>
+		<input type="text" id="prijmeni" name="prijemni">
+		<br>
+
+
+		<!--PŘEPÍNAČ PUNTÍKŮ-->
+
+		<h2>Přepínač puntíků</h2>
+		<p>Máte rád palačinky?</p>
+		<input type="radio" name="vyber" value="ANO" id="ano">
+		<!--výběr jedné možnosti z několika, name je jméno pole, které se odesílá z daty, value? -->
+		<label for="ano">ANO</label>
+		<br>
+		<input type="radio" name="vyber" value="ne" id="ne">
+		<label for="ne">NE</label>
+		<br>
+
+
+		<!--ZAŠKRTÁVACÍ TLAČÍTKA-->
+
+		<h2>Zaškrtávací políčka</h2>
+		<p>Jaký typ palačinek máte rádi?</p>
+		<input type="checkbox" name="vyber1" id="sladka">
+		<!--checkbox-->
+		<label for="sladka">Sladká</label>
+		<!--label se píše po vstupu aby se zobrazil za políčkem-->
+		<br>
+		<input type="checkbox" name="vyber2" id="slana">
+		<label for="slana">Slaná</label>
+		<br>
+		<input type="checkbox" name="vyber3" id="bez">
+		<label for="bez">Samotná palačinka</label>
+		<br>
+
+
+		<!--ODESÍLACÍ TLAČÍTKO-->
+
+		<input type="submit" name="" value="Odeslat" id="tlacitko">
+		<!--value je hodnota, která je napsaná na tlačítku-->
+		
+			
+
+
+
+		<!--
+		<button type="button" onclick="alert('Dobrou noc')">Jdeš spát?</button>
+		<input type="color" name="">
+		-->
+
+
+
+
+
+
+
+		
+		
+	</form>
+	<hr>
+	<h1>UDEMY</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Období</th>
+				<th>Škola</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2006-2010</td>
+				<td>Mateřská škola Fráni Šrámka</td>
+			</tr>
+			<tr>
+				<td>2010-2019</td>
+				<td>ZŠ a MŠ Koperníkova</td>
+			</tr>
+			<tr>
+				<td>2019-dnes</td>
+				<td>Střední Průmyslová škola Teplice</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			
+		</tfoot>
+	</table>	
+		<h2>Dovednosti</h2>
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>HTML</td>
+							<td>⭐⭐⭐</td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td>⭐⭐</td>
+						</tr>
+						<tr>
+							<td>C++</td>
+							<td>⭐</td>
+						</tr>
+						<tr>
+							<td>JavaScript</td>
+							<td>⭐</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+
+							<td>Šerm</td>
+							<td>⭐⭐⭐</td>
+						</tr>
+						<tr>
+							<td>PEK</td>
+							<td>⭐</td>
+						</tr>
+						<tr>
+							<td>Vaření</td>
+							<td>⭐</td>
+						</tr>
+						<tr>
+							<td>Cvičení</td>
+							<td>⭐</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		
+		
+
+		
+
+
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<a id="nahoru" href="#">Nahoru</a>
+	</footer>
+</body>
+</html>
